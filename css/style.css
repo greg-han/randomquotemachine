@@ -1,0 +1,84 @@
+@import url("http://fonts.googleapis.com/css?family=Josefin+Sans&subset=latin,latin-ext" rel="stylesheet" type="text/css");
+body {
+  background-color: #aec2ea !important;
+  color: #f2f2f2 !important;
+  font-family: 'Josefin+Sans';
+  font-weight: 800;
+}
+
+.txt {
+  margin-top: 20%;
+  font-weight: 500;
+  font-size: 0.7em;
+  color: white;
+  font-family: 'Josefin+Sans';
+}
+
+.author {
+  margin-top: 10%;
+  font-weight: 400;
+  font-size: 0.9em;
+  color: white;
+  font-family: 'Josefin+Sans';
+}
+
+.quote-box {
+  position: relative;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  margin-left: auto;
+  margin-right: auto;
+  display: table;
+  width: 500px;
+  height: 325px;
+  background-color: #ff5500;
+}
+.quote-box .quote-text {
+  text-align: center;
+  width: 450px;
+  height: auto;
+  clear: both;
+  font-weight: 500;
+  font-size: 1.75em;
+  margin: auto auto auto auto;
+  color: #f2f2f2;
+}
+.quote-box .buttons {
+  width: 500px;
+  margin: auto;
+}
+.quote-box .buttons .button {
+  margin-top: 30px;
+  text-align: center;
+  font: monospace;
+  height: 50px;
+  border: none;
+  border-radius: 5px;
+  background-color: #aec2ea;
+  font-size: 0.85em;
+  color: white;
+  cursor: grab;
+  padding: 10px 10px 10px 10px;
+}
+.quote-box .buttons .button:hover {
+  opacity: 0.5;
+}
+.quote-box .buttons .button#next-quote {
+  margin-left: 41%;
+  float: center;
+}
+.quote-box .buttons .button#tweet-quote {
+  margin-top: 10px;
+  margin-left: 40.5%;
+  float: center;
+}
+
+.footer {
+  position: static;
+  margin: auto auto auto auto;
+  width: 500px;
+  font-family: Monospace;
+  text-align: center;
+  font-size: 1em;
+  color: black;
+}
